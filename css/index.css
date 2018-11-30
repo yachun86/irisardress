@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+video {
+  width: 640px;
+  height: 480px;
+  display: none;
+}
+
+.title {
+  margin: 10px;
+}
+
+.stage {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#container {
+  border: 1px solid #000;
+  position: relative;
+}
+
+#texture {
+  display: none;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
